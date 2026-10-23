@@ -1,0 +1,11 @@
+[project]
+name = "bitcoin-big-data-analytics"
+version = "1.0.0"
+description = "BTC-USD market-data analytics using Python, PySpark, and Streamlit"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
